@@ -1,0 +1,31 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "Utils for NodeJs App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagusrin/node-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "node",
+    "nodejs",
+    "serialize",
+    "unserialize",
+    "moment"
+  ],
+  "author": "Bagus Rinaldhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bagusrin/node-utils/issues"
+  },
+  "homepage": "https://github.com/bagusrin/node-utils#readme",
+  "dependencies": {
+    "is-empty": "^1.2.0",
+    "moment": "^2.29.1"
+  }
+}
