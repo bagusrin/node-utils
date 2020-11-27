@@ -1,3 +1,3 @@
-const {General, DateFormat} = require('./index');
+const {General, DateFormat, Crypt, Serialize} = require('./index');
 
-console.log(General);
+console.log(Serialize({a:"a",b:"b"}));
