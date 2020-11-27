@@ -1,2 +1,18 @@
 # node-utils
-Utils for NodeJS App
+
+### Installation
+
+This project requires [Node.js](https://nodejs.org/) to run.
+
+How To Install.
+
+```sh
+$ npm install node-utils
+```
+
+How To Use.
+
+```
+const {General, DateFormat, Crypt, Serialize} = require('node-utils');
+console.log(Crypt.encrypt('abc'));
+```
