@@ -7,7 +7,7 @@ This project requires [Node.js](https://nodejs.org/) to run.
 How To Install.
 
 ```sh
-$ npm install node-utils
+$ npm install @bagusrin/node-utils
 ```
 
 How To Use.
