@@ -38,20 +38,6 @@ const General = {
 
   },
 
-  orderNumber: function(id){
-    let now = Date.now().toString() // '1492341545873'
-    
-    // pad with extra random digit
-    now += now + Math.floor(Math.random() * 10)
-
-    let userId = '-'+Math.floor(1000 + Math.random() * 9000);
-    if(!empty(id)){
-      userId = '-'+id
-    }
-    
-    return  'DS-'+[now.slice(4, 14)]+userId
-  },
-
   formatNumber: function(num){
     return 'Rp '+num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
   }
