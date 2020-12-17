@@ -13,6 +13,6 @@ $ npm install @bagusrin/node-utils
 How To Use.
 
 ```
-const {General, DateFormat, Crypt, Serialize} = require('node-utils');
+const {General, DateFormat, Crypt, Serialize} = require('@bagusrin/node-utils');
 console.log(Crypt.encrypt('abc'));
 ```
