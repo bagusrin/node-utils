@@ -1,6 +1,6 @@
 {
   "name": "@bagusrin/node-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utils for NodeJs App",
   "main": "index.js",
   "scripts": {
